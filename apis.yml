@@ -1,22 +1,77 @@
 aid: california-forever
 name: California Forever
-description: California Forever is a company surfaced as a portfolio company of a16z and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  California Forever is a real estate and urban development company founded by
+  Jan Sramek in 2017, backed by prominent Silicon Valley investors including
+  Andreessen Horowitz (a16z), Laurene Powell Jobs, Reid Hoffman, Marc Andreessen,
+  and Stripe co-founders Patrick and John Collison. Through its subsidiary
+  Flannery Associates the company assembled roughly 60,000-70,000 acres of land
+  in southeastern Solano County, California, and is planning a new walkable city
+  for up to 400,000 residents alongside the Solano Foundry advanced manufacturing
+  park and the Solano Shipyard. The company describes the effort as a $215 billion
+  private investment intended to create hundreds of thousands of jobs, 170,000+
+  new homes, and billions in annual tax revenue over 40 years. California Forever
+  is a physical-development and land-use company; it publishes no public API,
+  developer portal, SDKs, or machine-readable interfaces at this time.
 url: https://raw.githubusercontent.com/api-evangelist/california-forever/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://californiaforever.com/wp-content/uploads/2025/12/CF-SocialShare.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - a16z
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-developer-surface: none
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Real Estate
+- Urban Development
+- Construction
+- Manufacturing
+- Infrastructure
+- California
+- Venture Backed
 apis: []
+common:
+- type: DomainSecurity
+  url: security/california-forever-domain-security.yml
+- type: Website
+  url: https://californiaforever.com/
+- type: About
+  url: https://californiaforever.com/company/
+- type: Blog
+  url: https://californiaforever.com/blog/
+- type: Press
+  url: https://californiaforever.com/in-the-media/
+- type: PressKit
+  url: https://californiaforever.com/press-kit/
+- type: Support
+  url: https://californiaforever.com/contact/
+- type: TermsOfService
+  url: https://californiaforever.com/terms-conditions/
+- type: PrivacyPolicy
+  url: https://californiaforever.com/privacy-policy/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
