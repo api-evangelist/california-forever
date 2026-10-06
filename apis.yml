@@ -46,7 +46,7 @@ x-tier-reason: portfolio-lead
 x-developer-surface: none
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-18'
+modified: '2026-10-06'
 tags:
 - Company
 - Real Estate
@@ -68,6 +68,8 @@ tags_raw:
 - Real-Estate
 apis: []
 common:
+- url: https://californiaforever.com/blog/feed/
+  type: BlogRSS
 - type: DomainSecurity
   url: security/california-forever-domain-security.yml
 - type: Website
